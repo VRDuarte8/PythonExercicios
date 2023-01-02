@@ -1,0 +1,5 @@
+nome = input("Digite o nome completo: ")
+print(nome.upper())
+print(nome.lower())
+print("Quantidade de letras: " + str(len(nome.replace(" ", ""))))
+print("Quantidade de letras do primeiro nome: " + str(len(nome[:nome.find(" ")])))
