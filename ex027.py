@@ -1,4 +1,4 @@
-nome = input("Digite um nome completo: ")
-nome = nome.strip()
-print("Primeiro nome: " + nome[:nome.find(" ")])
-print("Último nome: " + nome[nome.rfind(" ") + 1:])
+nome = input("Digite um nome completo: ").strip()
+nome = nome.split()
+print("Primeiro nome: " + nome[0])
+print("Último nome: " + nome[len(nome)-1])

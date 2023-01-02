@@ -1,4 +1,4 @@
-frase = input("Digite um frase: ")
-print("Quantidade de letras 'a': " + str(frase.count('a')))
-print("Primeira posição: " + str(frase.find('a')))
-print("Última posição: " + str(frase.rfind('a')))
+frase = input("Digite uma frase: ").upper().strip()
+print("Quantidade de letras 'a': " + str(frase.count('A')))
+print("Primeira posição: " + str(frase.find('A')+1))
+print("Última posição: " + str(frase.rfind('A')+1))
