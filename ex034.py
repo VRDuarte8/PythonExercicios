@@ -5,4 +5,5 @@ if salario > 1250:
 else:
     aumento = salario * 0.15
     novosalario = salario + aumento
-print("Você receberá um aumento de R${:.2f}, novo salário: {}".format(aumento, novosalario))
+print("Você receberá um aumento de \033[4;32mR${:.2f}\033[m, "
+      "novo salário: \033[4;34mR${:.2f}".format(aumento, novosalario))

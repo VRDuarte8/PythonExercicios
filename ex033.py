@@ -10,4 +10,4 @@ if maior < n3:
     maior = n3
 if menor > n3:
     menor = n3
-print("O maior número é o {}, enquanto o menor é o {}".format(maior, menor))
+print("O maior número é o \033[1;36m{}\033[m, enquanto o menor é o \033[1;31m{}\033[m".format(maior, menor))

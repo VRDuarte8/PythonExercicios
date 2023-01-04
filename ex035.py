@@ -6,6 +6,6 @@ r2 = float(input("Valor da segunda reta: "))
 r3 = float(input("Valor da terceira reta: "))
 
 if r1 + r2 > r3 and r1 + r3 > r2 and r2 + r3 > r1:
-    print("As três retas formam um triângulo!")
+    print("As três retas \033[4;32mformam um triângulo!")
 else:
-    print("As três retas não formam um triângulo!")
+    print("As três retas \033[4;31mnão formam um triângulo!")
