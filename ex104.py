@@ -1,5 +1,5 @@
 def leiaInt(f):
-    num = input(f)
+    num = int(input(f))
     while not num.isnumeric():
         print("\033[1;31mERRO! Digite um número inteiro válido.\033[m")
         num = input(f)
